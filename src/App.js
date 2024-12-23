@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 function App() {
-  const [activeInvoice, setActiveInvoice] = useSate(null);
+  const [activeInvoice, setActiveInvoice] = useState(null);
   const invoices = [
     {
       id: 1,
